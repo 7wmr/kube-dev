@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kube-dev
+spec:
+  containers:
+    - name: kube-dev
+      image: 7wmr/kube-dev:latest
+  hostNetwork: true
+  dnsPolicy: Default
+
