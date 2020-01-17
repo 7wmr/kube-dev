@@ -7,6 +7,5 @@ spec:
     - name: kube-dev
       image: 7wmr/kube-dev:latest
       imagePullPolicy: Always
-  hostNetwork: true
-  dnsPolicy: Default
+
 
